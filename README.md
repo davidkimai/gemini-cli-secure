@@ -2,7 +2,7 @@
 
 **AI Agent Permission System for gemini-cli**
 
-An open source authorization security framework built on top of Gemini CLI that adds [**resampling**] (https://www.bashcontrol.com/), capability-based access control, TOCTOU prevention, and intent alignment to AI agent tool execution.
+An open source authorization security framework built on top of Gemini CLI that adds [**resampling**](https://www.bashcontrol.com/), capability-based access control, TOCTOU prevention, and intent alignment to AI agent tool execution.
 
 [![Tests](https://img.shields.io/badge/tests-107%2F109-success)](./test)
 [![Detection](https://img.shields.io/badge/red_team-100%25-success)](./test/red-team)
