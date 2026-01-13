@@ -1,0 +1,35 @@
+{
+  "name": "@gemini-cli/auth",
+  "version": "0.1.0",
+  "description": "Security authorization layer for gemini-cli with adversarial control",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cosine-similarity": "^1.0.1",
+    "js-yaml": "^4.1.1",
+    "minimatch": "^10.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.19.28",
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.1"
+  },
+  "keywords": [
+    "gemini",
+    "cli",
+    "security",
+    "authorization",
+    "ai-control",
+    "redwood-research"
+  ],
+  "author": "Jason, AI Security Researcher",
+  "license": "Apache-2.0"
+}
